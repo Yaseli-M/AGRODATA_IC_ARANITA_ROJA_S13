@@ -1,0 +1,7 @@
+﻿etapa,variable,problema,accion,registros_afectados,justificacion
+Estructura,Encabezados,"Nombres con tildes, espacios y símbolos",Normalizar a snake_case,16,Facilita un procesamiento reproducible.
+Ausencias,Columnas de arañita,Celdas vacías,Rellenar con 0,7242,"Regla de negocio confirmada: vacío = no se encontró infestación, no dato faltante."
+Formato numérico,"grado_hoja, grado_postura","Errores de tipeo (""1 78"", ""0. 5"")",Corregir patrón y convertir a numérico,2,"Patrón de error identificado explícitamente, no una suposición."
+Duplicados exactos,Todas las columnas,Filas completamente repetidas,Conservar la primera aparición,0,Evita doble conteo de una misma evaluación.
+Duplicados lógicos,"fecha, modulo, valvula, turno",Misma evaluación cargada más de una vez (formulario reenviado o corregido),Conservar la carga con marca_temporal más reciente; retirar las anteriores,59,La carga más reciente representa la versión final/corregida del formulario; no se promedia ni se descarta al azar.
+Valores imposibles,grado_postura,2 valores fuera de la escala normal 0-4 (10 y 5.35),"Marcar con flag, pendiente de confirmar con el Ing. Kiyoshi",2,No se descarta ni corrige sin verificación de campo.

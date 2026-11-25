@@ -1,0 +1,35 @@
+﻿fila,fecha,modulo,valvula,regla,dimension,campo,severidad,descripcion,valor_observado,estado_calidad
+1,2026-03-02,1,3,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+48,2026-03-18,5,24,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+57,2026-03-18,5,21,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+83,2026-03-18,4,5,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+84,2026-03-18,4,9,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+190,2026-04-07,6,19,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+276,2026-04-20,5,21,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+291,2026-04-20,6,23,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+321,2026-04-20,4,19,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+340,2026-04-20,4,22,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+421,2026-05-08,5,25,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+830,2026-06-24,3,15,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+831,2026-06-24,3,21,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+897,2026-07-06,5,2,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+899,2026-07-06,5,10,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+900,2026-07-06,5,6,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+902,2026-07-06,5,5,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+903,2026-07-06,5,8,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+907,2026-07-06,5,4,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+910,2026-07-06,5,23,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+917,2026-07-06,6,8,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+1043,2026-07-20,5,22,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+1046,2026-07-20,5,24,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+1048,2026-07-20,5,12,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+1049,2026-07-20,5,4,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+1050,2026-07-20,5,20,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+1051,2026-07-20,5,14,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+1053,2026-07-20,5,6,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+1054,2026-07-20,5,10,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+1061,2026-07-20,5,16,A01,Revisión,fecha+modulo+valvula+turno,AVISO,"Evaluación que tuvo un duplicado lógico, ya resuelto en Semana 6 (se conservó la carga más reciente)",,OBSERVADO
+1375,2026-08-20,2,3,R13,Validez,aranita_grado_postura,MEDIA,Grado postura dentro de la escala 0-4,10.0,OBSERVADO
+1375,2026-08-20,2,3,A02,Revisión,aranita_grado_postura,AVISO,Grado postura fuera de la escala habitual (0-4); confirmar con el Ing. Kiyoshi,10.0,OBSERVADO
+1434,2026-08-26,3,25,R13,Validez,aranita_grado_postura,MEDIA,Grado postura dentro de la escala 0-4,5.35,OBSERVADO
+1434,2026-08-26,3,25,A02,Revisión,aranita_grado_postura,AVISO,Grado postura fuera de la escala habitual (0-4); confirmar con el Ing. Kiyoshi,5.35,OBSERVADO

@@ -1,0 +1,7 @@
+Dataset: aranita_roja_bd_v1.sqlite (tablas clima_diario y evaluacion_fitosanitaria) -> aranita_roja_analitico_v1.csv
+Fuente: Fundo Loma Verde S.A.C. (estación meteorológica y monitoreo fitosanitario de campo)
+Versión: v1 (Semana 8)
+Periodo: clima 2026-03-01 a 2026-08-30; evaluaciones 2026-03-02 a 2026-08-28
+Transformaciones: ver notebook S12_AgroDataIC_v1.ipynb (JOIN clima + evaluación + módulo + turno; filtro estado_calidad_evaluacion = ACEPTADO)
+Cálculos principales: promedio y mediana mensual del % de hojas infestadas; promedio por fecha; correlación de Spearman; promedio por módulo x mes
+Limitaciones: un solo ciclo de 6 meses; rango térmico 20.4-23.2 C; Tbase=10.34 C y K=163.93 GDA son supuestos de literatura sin validar en campo

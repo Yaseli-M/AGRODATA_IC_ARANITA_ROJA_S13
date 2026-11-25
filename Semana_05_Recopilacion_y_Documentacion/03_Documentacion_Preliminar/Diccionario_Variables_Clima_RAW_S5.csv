@@ -1,0 +1,19 @@
+Variable_RAW,Variable_Estandarizada,Tipo_Dato_Origen,Unidad_Escala,Rango_Esperado,Obligatorio,Descripcion_Tecnica,Observacion_Semana_05
+Fecha,fecha,texto (dd/mm/aaaa),Fecha,01/03/2026 a 31/08/2026,Sí,Fecha de medición de la estación,Llave primaria temporal de 183 días
+Temperatura (ºC),temperatura_oc,decimal,°C,12.0 a 35.0 °C,No,Temperatura media diaria,Escala y comas decimales resueltas
+Temperatura Mínima (ºC),temperatura_minima_oc,decimal,°C,10.0 a 25.0 °C,No,Temperatura mínima diaria registrada,Comas decimales resueltas
+Temperatura Máxima (ºC),temperatura_maxima_oc,decimal,°C,18.0 a 38.0 °C,No,Temperatura máxima diaria registrada,Comas decimales resueltas
+Humedad Relativa (%),humedad_relativa,decimal,%,40.0 a 100.0%,No,Humedad relativa media diaria,Sensor in situ
+Humedad Relativa Mínima (%),humedad_relativa_minima,decimal,%,20.0 a 90.0%,No,Humedad relativa mínima registrada,Sensor in situ
+Humedad Relativa Máxima (%),humedad_relativa_maxima,decimal,%,60.0 a 100.0%,No,Humedad relativa máxima registrada,Sensor in situ
+Precipitación (mm),precipitacion_mm,decimal,mm,0.0 a 50.0 mm,No,Lluvia diaria registrada,Predominio de 0.0 mm
+Precipitación Diaria Acumulada (mm),precipitacion_diaria_acumulada_mm,decimal,mm,0.0 a 100.0 mm,No,Lluvia acumulada en el día,Registro acumulado
+ET0 (mm),et0_mm,decimal,mm/día,1.0 a 8.0 mm,No,Evapotranspiración de referencia,Cálculo FAO-56
+ET0 Acumulado (mm),et0_acumulado_mm,decimal,mm,1.0 a 600.0 mm,No,Evapotranspiración acumulada,Suma continua
+Velocidad de Viento Promedio (km/h),velocidad_de_viento_promedio_km_h,decimal,km/h,0.0 a 30.0 km/h,No,Velocidad media del viento,Sensor anemómetro
+Dirección de Viento Predominante,direccion_de_viento_predominante,texto,Rosa de vientos,"O, SO, OSO, SSO",No,Rumbo predominante del viento,Orientación geográfica
+Radiación Solar (W/m²),radiacion_solar_w_m2,decimal,W/m²,50.0 a 400.0 W/m²,No,Radiación solar media diaria,Sensor piranómetro
+Horas frío (h),horas_frio_h,decimal,horas,0.0 a 5.0 h,No,Horas bajo 7°C,Mayormente 0 en costa norte
+Grados Día (ºC),grados_dia_oc,decimal,GDD,0.0 a 25.0 GDD,No,Grados día del cultivo calculados por estación,No confundir con GDA de arañita
+Grados Día Acumulado Año (ºC),grados_dia_acumulado_ano_oc,decimal,GDD,500 a 3500 GDD,No,Suma térmica acumulada anual,Variable fenológica acumulada
+txt.horasFrioAcum (h),txt_horas_frio_acum_h,decimal,horas,Constante (~2.75),No,Acumulado técnico de horas frío,Metadato de estación

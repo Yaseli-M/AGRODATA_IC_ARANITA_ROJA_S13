@@ -1,0 +1,11 @@
+Variable_RAW,Variable_Estandarizada,Tipo_Dato_Origen,Unidad_Escala,Rango_Esperado,Obligatorio,Descripcion_Tecnica,Observacion_Semana_05
+Marca temporal,marca_temporal,datetime/texto,Timestamp,09/2025 - 08/2026,Sí,Fecha y hora del registro en Google Forms,Base para extraer fecha calendario
+CAMPAÑA,campana,texto,Categoría,"{'2025-2026', '2026-2027'}",Sí,Campaña agrícola productiva,Se normalizará en dimensión dim_campana
+MODULO,modulo,entero,Número,1 a 6,Sí,Módulo de riego del fundo,Se normalizará en dimensión dim_modulo
+TURNO,turno,entero,Número,1 a 6,Sí,Turno de riego programado,Se normalizará en dimensión dim_turno
+VALVULA,valvula,entero,Número,1 a 35,Sí,Válvula de campo evaluada,Atributo de hecho (se repite entre módulos)
+PLANTAS EVALUADAS,plantas_evaluadas,entero,Plantas,1 a 10,Sí,Muestra de árboles revisados,Generalmente 5 plantas por válvula
+ARAÑITA (% HOJAS INFESTADAS),aranita_hojas_infestadas,decimal (coma),%,0.0 a 100.0%,No,Porcentaje de hojas con presencia de ácaros,51.9% celdas vacías a imputar a 0.0
+ARAÑITA (GRADO HOJA),aranita_grado_hoja,decimal (coma),Escala 0-4,0.0 a 4.0,No,Nivel de daño foliar agronómico,52.1% celdas vacías a imputar a 0.0
+ARAÑITA (% INFESTACIÓN POSTURA),aranita_infestacion_postura,decimal (coma),%,0.0 a 100.0%,No,Porcentaje de hojas con presencia de huevos,85.7% vacíos a imputar a 0.0
+ARAÑITA (GRADO POSTURA),aranita_grado_postura,decimal (coma),Escala 0-4,0.0 a 4.0,No,Severidad de postura de huevos,85.7% vacíos. Valores atípicos 10 y 5.35

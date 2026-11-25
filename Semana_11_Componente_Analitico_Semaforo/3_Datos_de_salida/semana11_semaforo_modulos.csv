@@ -1,0 +1,7 @@
+﻿modulo,evaluaciones_en_ventana,fechas_en_ventana,hojas_inf_media,hojas_inf_maxima,evaluaciones_rojas,estado_modulo,observacion,ventana_inicio,fecha_corte
+1,0,0,,,0,Datos insuficientes,,2026-08-15,2026-08-28
+2,32,2,0.63375,4.16,0,Verde,,2026-08-15,2026-08-28
+3,24,2,1.2558333333333334,6.25,0,Verde,,2026-08-15,2026-08-28
+4,35,3,8.248285714285714,52.5,3,Verde,Revisar focos: hay evaluaciones en Rojo aunque el promedio es menor,2026-08-15,2026-08-28
+5,44,3,11.75090909090909,60.0,6,Ámbar,Revisar focos: hay evaluaciones en Rojo aunque el promedio es menor,2026-08-15,2026-08-28
+6,26,2,8.331538461538461,35.41,4,Verde,Revisar focos: hay evaluaciones en Rojo aunque el promedio es menor,2026-08-15,2026-08-28

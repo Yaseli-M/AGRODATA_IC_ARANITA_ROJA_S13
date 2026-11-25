@@ -1,0 +1,12 @@
+﻿fila,fecha,regla,dimension,campo,severidad,descripcion,valor_observado,estado_calidad
+5,2026-03-06,A01,Revisión,temperatura_oc,AVISO,Posible atípico de temperatura (regla IQR); contrastar con evidencia de campo,23.67,OBSERVADO
+7,2026-03-08,A01,Revisión,temperatura_oc,AVISO,Posible atípico de temperatura (regla IQR); contrastar con evidencia de campo,23.56,OBSERVADO
+52,2026-04-22,A01,Revisión,temperatura_oc,AVISO,Posible atípico de temperatura (regla IQR); contrastar con evidencia de campo,19.31,OBSERVADO
+53,2026-04-23,A01,Revisión,temperatura_oc,AVISO,Posible atípico de temperatura (regla IQR); contrastar con evidencia de campo,19.41,OBSERVADO
+55,2026-04-25,A01,Revisión,temperatura_oc,AVISO,Posible atípico de temperatura (regla IQR); contrastar con evidencia de campo,19.47,OBSERVADO
+57,2026-04-27,A01,Revisión,temperatura_oc,AVISO,Posible atípico de temperatura (regla IQR); contrastar con evidencia de campo,19.35,OBSERVADO
+58,2026-04-28,A01,Revisión,temperatura_oc,AVISO,Posible atípico de temperatura (regla IQR); contrastar con evidencia de campo,18.97,OBSERVADO
+59,2026-04-29,A01,Revisión,temperatura_oc,AVISO,Posible atípico de temperatura (regla IQR); contrastar con evidencia de campo,18.87,OBSERVADO
+60,2026-04-30,A01,Revisión,temperatura_oc,AVISO,Posible atípico de temperatura (regla IQR); contrastar con evidencia de campo,19.22,OBSERVADO
+61,2026-05-01,A01,Revisión,temperatura_oc,AVISO,Posible atípico de temperatura (regla IQR); contrastar con evidencia de campo,19.27,OBSERVADO
+169,2026-08-17,A01,Revisión,temperatura_oc,AVISO,Posible atípico de temperatura (regla IQR); contrastar con evidencia de campo,19.28,OBSERVADO

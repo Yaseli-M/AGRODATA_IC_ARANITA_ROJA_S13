@@ -1,0 +1,6 @@
+﻿etapa,variable,problema,accion,registros_afectados,justificacion
+Estructura,Encabezados,"Nombres con tildes, espacios y símbolos",Normalizar a snake_case,20,Facilita un procesamiento reproducible.
+Formato,fecha,Texto dd/mm/yyyy,Convertir a datetime explícito,183,Evita ambigüedad día/mes en fechas.
+Escala,Variables numéricas de clima,Exportación multiplicó todos los valores por 100,Dividir entre 100,183,Magnitud verificada contra rangos físicos esperados para la zona.
+Valores imposibles,"temperatura_oc, humedad_relativa",Posibles valores fuera de rango físico,Marcar con flag (no eliminar automáticamente),0,Preserva evidencia para revisión manual.
+Duplicados,fecha,Filas con la misma fecha repetida,Conservar la primera aparición,0,Evita doble conteo de un mismo día.

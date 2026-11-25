@@ -1,0 +1,16 @@
+﻿Elemento,Definición
+Proyecto,Sistema de alerta temprana basado en grados-día para la arañita roja (O. punicae) en palto Hass · Fundo Loma Verde S.A.C.
+Versión de entrada,"aranita_roja_bd_v1.sqlite (Semana 8): 183 días de clima y 1,494 evaluaciones fitosanitarias"
+Unidad de análisis,"1 fila = 1 evaluación fitosanitaria validada (fecha + módulo + válvula + turno), con el clima de su día"
+Granularidad,Detalle individual por válvula (sin agregar)
+Periodo,Evaluaciones: 2026-03-02 a 2026-08-28 (50 fechas). Clima: 2026-03-01 a 2026-08-30
+Regla de inclusión,"estado_calidad_evaluacion = 'ACEPTADO' (1,462 de 1,494 evaluaciones)"
+Regla de exclusión,"Las 32 evaluaciones OBSERVADO (30 duplicados lógicos y 2 atípicos de grado de postura); permanecen en la base, no entran a este dataset"
+Tablas integradas,evaluacion_fitosanitaria + clima_diario + dim_modulo + dim_turno
+Variables incluidas,"evaluacion_id, fecha, modulo, turno, valvula, plantas_evaluadas, hojas_inf_pct, postura_pct, temperatura_oc, humedad_relativa, estado_calidad_clima"
+Variables no incluidas,"grados_dia_oc y grados_dia_acumulado_ano_oc (grado-día del cultivo, no de la plaga); evapotranspiración, radiación, viento y precipitación; grados de severidad 0-4"
+Variables derivadas,"mes; gda_dia = máx(0, T - Tbase); gda_acum = suma de gda_dia desde 2026-03-01; generaciones_acum = gda_acum / K; temp_7d y hr_7d = promedio móvil de 7 días"
+Parámetros del modelo,"Tbase = 10.34 °C y K = 163.93 GDA (literatura, pendientes de validación en campo)"
+Validaciones,"unicidad de evaluacion_id y de (fecha, módulo, válvula, turno), completitud, rangos 0-100, periodo, conteo tras JOIN (1,462), GDA >= 0 y acumulado creciente, conciliación del acumulado"
+Archivo de salida,aranita_roja_analitico_v1.csv (+ consulta_analitica_v1.sql)
+Limitaciones conocidas,Un solo ciclo de 6 meses; sin fecha biológica de inicio (biofix); el clima viene de una estación; 3 de las 50 fechas tienen clima OBSERVADO (se conservan con su marca)

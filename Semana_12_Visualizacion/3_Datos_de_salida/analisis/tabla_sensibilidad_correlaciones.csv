@@ -1,0 +1,5 @@
+﻿variante,n_fechas,rho_temperatura,p_temperatura,rho_humedad,p_humedad
+"Base: mismo día, clima ACEPTADO",47,0.055,0.713,-0.113,0.45
+Todas las fechas (incluye clima OBSERVADO),50,0.058,0.69,-0.121,0.401
+Solo fechas con 10 o más evaluaciones,39,-0.057,0.73,0.103,0.532
+Promedio de 7 días que terminan en la fecha,45,-0.21,0.167,0.022,0.887

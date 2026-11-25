@@ -1,0 +1,23 @@
+{
+    "proyecto": "Sistema de alerta temprana — arañita roja, Fundo Loma Verde S.A.C.",
+    "semana": 8,
+    "actividad": "Organización y almacenamiento",
+    "version": "v1",
+    "fecha_generacion": "2026-11-17T23:37:36",
+    "archivo_fuente_clima": "clima_validado_v1_2026-11-17.csv",
+    "archivo_fuente_fitosanitario": "fitosanitario_validado_v1_2026-11-17.csv",
+    "base_datos": "aranita_roja_bd_v1_2026-11-17.sqlite",
+    "motor": "SQLite",
+    "tablas": [
+        "dim_modulo",
+        "dim_turno",
+        "dim_campana",
+        "clima_diario",
+        "evaluacion_fitosanitaria"
+    ],
+    "dias_clima": 183,
+    "evaluaciones_fitosanitarias": 1494,
+    "diccionario_datos": "diccionario_datos_v1_2026-11-17.csv",
+    "exportacion": "aranita_roja_exportacion_v1_2026-11-17.csv",
+    "pendiente_siguiente_fase": "Calcular GDA de la plaga (Tbase=10.34°C, K=163.93 GDA) y construir el semáforo de alerta."
+}
